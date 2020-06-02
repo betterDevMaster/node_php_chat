@@ -1,0 +1,134 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.center{
+	text-align: center
+}
+.wrapper{
+	
+	max-width: 1200px;
+	margin: 0 auto;
+}
+h2, h1, p, li{
+
+	color: #B5B4B0;
+}
+form{
+	
+	display: inline-block;
+}
+label{
+	font-size: 1.2em;
+	color: #B5B4B0;
+	margin-bottom: 15px;
+}
+
+/*-------------------------index---------------------*/
+
+#User, #UserSign{
+	margin-bottom: 20px;
+}
+
+#myAlert{
+	text-align: center;
+	display: none
+}
+/*------------------------------header--------------------------*/
+.main-header {
+	background-color: #542733;
+	text-align: center;
+	line-height: 2.5;
+	margin :0;
+}
+.main-header h2 {
+
+	display: inline-block;
+	
+
+	line-height: 5;
+	margin :0;
+}
+
+/*--------------------------------chat-------------------------------*/
+#logout{
+	float: right;
+	margin-top: 50px;
+	color: #B5B4B0;
+	border: 1px solid #B5B4B0;
+	line-height: 3;
+	
+
+
+	
+}
+#users {
+	background-color:#181818;
+}
+#users ul{
+	list-style: none;
+	min-height: 510px; 
+}
+
+#users li{
+	margin-top: 5px;
+	font-size: 1.2em;
+	color:#729002;
+}
+#chat{
+	margin-left: 15px;
+	margin-top: 20px;
+	height: 500px;
+	font-size: 1.2em;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.form-control:focus{
+	border-color:#729002;
+}
+
+
+input, input:focus, input:active{
+	color: #B5B4B0;
+}
+#popup{
+	display : none;
+	min-height : 100px;
+	width: 400px;
+	border: 1px solid black;
+	background-color: #181818;
+	position: absolute;
+	top: 500px;
+	right: 20px;
+	padding-left: 10px;
+}
+#validate, #validate2{
+	margin-top: 20px;
+	color: #B5B4B0;
+	border: 1px solid #B5B4B0;
+	line-height: 3;
+	background-color: #181818;
+}
+#msg{
+	
+	padding: 30px 10px;
+}
+#send{
+	margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
